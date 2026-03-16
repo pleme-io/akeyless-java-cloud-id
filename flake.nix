@@ -19,7 +19,7 @@
         pname = "cloudid";
         version = "0.0.0-dev";
         src = self;
-        mvnHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; # TODO: set correct hash
+        mvnHash = ""; # requires nix build to compute
         description = "Akeyless Java Cloud Id";
         homepage = "https://github.com/pleme-io/akeyless-java-cloud-id";
       };
